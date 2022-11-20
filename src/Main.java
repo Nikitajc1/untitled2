@@ -1,8 +1,8 @@
 public class Main {
     public static void main(String[] args) {
-        int x = 5000;
-        int y = 20;
-        int z = x / y;
-        System.out.println(z);
+        int ticket = 5000;
+        int rubles = 20;
+        int miles = ticket / rubles;
+        System.out.println("Бесплатные мили: " + miles);
     }
 }
